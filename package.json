@@ -58,10 +58,10 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx, jsx}": [
-        "eslint --quiet --fix"
+        "yarn run eslint --quiet --fix"
     ],
     "*.{json,md,html,js,jsx,ts,tsx}": [
-        "prettier --write"
+        "yarn run prettier --write"
     ]
   }
 }
