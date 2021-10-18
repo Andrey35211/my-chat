@@ -20,9 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "npx prettier --staged && npx eslint ./src",
-    "lint:fix": "npx prettier --staged && npx eslint . --ext --fix"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -59,8 +57,8 @@
     }
   },
   "lint-staged": {
-    "*.{.js, .jsx, .ts, .tsx}": [
-      "lint:fix",
+    "**/*.ts, .tsx": [
+      "eslint --fix",
       "git add"
     ]
   }
