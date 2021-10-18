@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged",
-    "eslint": "node_modules/.bin/eslint src/"
+    "lint": "yarn run eslint ./src",
+    "lint:fix": "yarn run eslint ./src --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -53,10 +53,14 @@
     "lint-staged": "^11.2.3",
     "prettier": "2.4.1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "*.{js, jsx}": [
-      "node_modules/.bin/eslint --max-warnings=0",
-      "prettier --write",
+    "*.{.js, .jsx, .ts, .tsx}": [
+      "npx prettier --staged && npx eslint . --ext --fix",
       "git add"
     ]
   }
