@@ -1,4 +1,5 @@
-module.exports ={
+module.exports =
+{
     "env": {
         "browser": true,
         "es2021": true
@@ -36,6 +37,8 @@ module.exports ={
                                // It will default to "detect" in the future
         },
     },
-    "rules": {
-    }
+    "rules": {   
+        "react/jsx-uses-react": "error",   
+        "react/jsx-uses-vars": "error" 
+   }
 }
