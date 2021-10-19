@@ -2,8 +2,8 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
+// eslint-disable-next-line
 function App() {
-  // eslint-disable-line
   return (
     <div className="App">
       <header className="App-header">
