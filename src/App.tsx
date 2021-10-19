@@ -2,8 +2,6 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-const string = "<p>fdgf</p>";
-
 // eslint-disable-next-line
 function App() {
   return (
