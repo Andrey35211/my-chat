@@ -1,5 +1,7 @@
 import { ReportHandler } from "web-vitals";
 
+var string = "<p>gfgfdgf</p>"
+
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
   // eslint-disable-line
   if (onPerfEntry && onPerfEntry instanceof Function) {
