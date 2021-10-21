@@ -1,0 +1,28 @@
+.LogInButton {
+  width: 233px;
+  height: 56px;
+  background: #5c98f1;
+  border-radius: 8px;
+  border: 0;
+  margin-top: 135px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.LogInButton:hover {
+  background: #4583de;
+}
+
+.LogInButton:focus {
+  background: #2c6ac7;
+}
+
+._disabled {
+  background: #d1d1d1;
+}

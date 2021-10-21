@@ -11356,6 +11356,11 @@ typescript@^4.1.2, typescript@^4.4.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
   integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
 
+uikit@^3.7.6:
+  version "3.7.6"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.7.6.tgz#b7536bc1aac104fd54bbba13553ca801e16f6e20"
+  integrity sha512-O1ePw9bhNJqSWfOyPTrFNIZUnrwfsoju5GLeXN/Rp7nmgcpqP0r8rBczpVL3NAkaLYqyH7Ga5qfIaDzSnLYK+A==
+
 unbox-primitive@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/unbox-primitive/-/unbox-primitive-1.0.1.tgz#085e215625ec3162574dc8859abee78a59b14471"

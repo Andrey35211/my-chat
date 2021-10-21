@@ -1,26 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
+import LoginForm from "../molecules/LoginForm";
 
-// eslint-disable-next-line
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        {/* <a
-          clagitssName="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopene    r noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
+      <LoginForm />
     </div>
   );
 }
